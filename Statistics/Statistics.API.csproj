@@ -6,6 +6,8 @@
 
   <ItemGroup>
     <Folder Include="Controllers\" />
+    <Folder Include="Models\ORM\Entities\" />
+    <Folder Include="Models\ORM\Context\" />
   </ItemGroup>
 
   <ItemGroup>
