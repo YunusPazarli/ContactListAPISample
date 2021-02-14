@@ -17,6 +17,11 @@ UID=snpxwqxqgyuvso;PWD=c113e62eaa0001f2688e06b7209bb02bbe8a3a517a3eee67bd5dd46fe
             }
 
         public DbSet<ContactList> ContactLists { get; set; }
-       
+        public DbSet<Contacts> Contacts { get; set; }
+        public DbSet<Addresses> Addresses { get; set; }
+        
+
+
+
     }
 }

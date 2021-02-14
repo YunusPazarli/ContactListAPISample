@@ -7,5 +7,6 @@ namespace Contact.API.Models.ORM.VM
 {
     public class DeleteContactVM
     {
+        public int ID { get; set; }
     }
 }

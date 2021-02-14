@@ -3,10 +3,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace Contact.API.Models.ORM.VM
+namespace Contact.API.Models.ORM.Entities
 {
-    public class DeleteAddressVM
+    public class BaseEntity
     {
         public int ID { get; set; }
+        public bool IsDeleted { get; set; }
     }
 }

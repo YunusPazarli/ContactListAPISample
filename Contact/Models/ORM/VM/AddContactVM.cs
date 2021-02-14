@@ -7,5 +7,9 @@ namespace Contact.API.Models.ORM.VM
 {
     public class AddContactVM
     {
+        public int ID { get; set; }
+        public string Name { get; set; }
+        public string Surname { get; set; }
+        public string Company { get; set; }
     }
 }
